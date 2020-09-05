@@ -25,7 +25,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         // Do any additional setup after loading the view.
         imagePicker.delegate = self
         imagePicker.allowsEditing = true
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = .camera
         label.layer.cornerRadius = 6
         label.layer.masksToBounds = true
     }
